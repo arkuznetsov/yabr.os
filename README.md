@@ -1,6 +1,6 @@
 # Yet another brace reader (os): Чтение "скобкофайлов" 1С (yabr.os)
 
-Приложение oscript для чтения скобочных файлов 1С, аналог [обработок 1С (yabr.1c)](https://github.com/ArKuznetsov/yabr.1c)/
+Приложение oscript для чтения скобочных файлов 1С, аналог [обработок 1С (yabr.1c)](https://github.com/ArKuznetsov/yabr.1c).
 
 ## Общие сведения
 
