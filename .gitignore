@@ -1,3 +1,4 @@
 testdata/
 .vscode/
 .sonarlint/
+*.ospx
