@@ -23,7 +23,7 @@
                         {
                             "ИмяОбработки":"ВыводДанныхВФайлJSON",
                             "Параметры":{
-                                "ПутьКФайлу":"$yabrDir\\..\\testdata\\ib-list2jsonfile-result.json"
+                                "ПутьКФайлу":"$workDir\\ib-list2jsonfile-result.json"
                                     }
                         },
                         {

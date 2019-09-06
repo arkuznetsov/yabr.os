@@ -11,7 +11,7 @@
                 {
                     "ИмяОбработки":"ВыводДанныхВФайлJSON",
                     "Параметры":{
-                        "ПутьКФайлу":"$yabrDir\\..\\testdata\\ver-rep2jsonfile-result.json"
+                        "ПутьКФайлу":"$workDir\\ver-rep2jsonfile-result.json"
                     }
                 }
             ]

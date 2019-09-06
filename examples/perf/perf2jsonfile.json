@@ -14,7 +14,7 @@
                 {
                     "ИмяОбработки":"ВыводДанныхВФайлJSON",
                     "Параметры":{
-                        "ПутьКФайлу":"$yabrDir\\..\\testdata\\perf2jsonfile-result.json"
+                        "ПутьКФайлу":"$workDir\\perf2jsonfile-result.json"
                     }
                 }
             ]

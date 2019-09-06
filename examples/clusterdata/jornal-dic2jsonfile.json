@@ -10,7 +10,7 @@
                 {
                     "ИмяОбработки":"ВыводДанныхВФайлJSON",
                     "Параметры":{
-                        "ПутьКФайлу":"$yabrDir\\..\\testdata\\jornal-dic2jsonfile-result.json"
+                        "ПутьКФайлу":"$workDir\\jornal-dic2jsonfile-result.json"
                     }
                 }
             ]
