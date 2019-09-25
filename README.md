@@ -1,5 +1,12 @@
 # Yet another brace reader (os): Чтение "скобкофайлов" 1С (yabr.os)
 
+[![GitHub release](https://img.shields.io/github/release/ArKuznetsov/yabr.os.svg?style=flat-square)](https://github.com/ArKuznetsov/yabr.os/releases)
+[![GitHub license](https://img.shields.io/github/license/ArKuznetsov/yabr.os.svg?style=flat-square)](https://github.com/ArKuznetsov/yabr.os/blob/develop/LICENSE.md)
+[![Build Status](https://travis-ci.org/arkuznetsov/yabr.os.svg?branch=develop)](https://travis-ci.org/arkuznetsov/yabr.os)
+[![Quality Gate](https://oskk-sonar.1solution.ru/api/badges/gate?key=yabr.os)](https://oskk-sonar.1solution.ru/dashboard/index/yabr.os)
+[![Coverage](https://oskk-sonar.1solution.ru/api/badges/measure?key=yabr.os&metric=coverage)](https://oskk-sonar.1solution.ru/dashboard/index/yabr.os)
+[![Tech debt](https://oskk-sonar.1solution.ru/api/badges/measure?key=yabr.os&metric=sqale_debt_ratio)](https://oskk-sonar.1solution.ru/dashboard/index/yabr.os)
+
 Приложение oscript для чтения скобочных файлов 1С, аналог [обработок 1С (yabr.1c)](https://github.com/ArKuznetsov/yabr.1c).
 
 ## Общие сведения
