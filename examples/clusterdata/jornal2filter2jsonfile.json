@@ -2,7 +2,7 @@
 	{
 		"ИмяОбработки":"ЧтениеСкобкофайла",
 		"Параметры":{
-			"ПутьКФайлу":"$settingsDir\\srvinfo\\reg_1541\\eea926c3-97df-4acc-b27f-6e149defdd7a\\1Cv8Log\\1CV8.lgf"
+			"ПутьКФайлу":"$settingsDir\\srvinfo\\reg_1541\\eea926c3-97df-4acc-b27f-6e149defdd7a\\1Cv8Log\\1cv8.lgf"
 		},
 		"Обработчики":[
 			{
