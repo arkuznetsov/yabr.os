@@ -4,3 +4,5 @@ testdata/
 *.ospx
 test-reports/
 coverage/
+.bsl-language-server.json
+bslls-log.txt
