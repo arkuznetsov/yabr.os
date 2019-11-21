@@ -25,7 +25,6 @@ if [ "$TRAVIS_SECURE_ENV_VARS" == "true" ]; then
         -Dsonar.login=$SONAR_TOKEN \
         -Dsonar.projectVersion=$version \
         -Dsonar.scanner.skip=false \
-        -Dsonar.branch.name=master \
-        -X
+        -Dsonar.branch.name=master
   fi
 fi
