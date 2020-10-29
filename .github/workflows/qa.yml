@@ -7,7 +7,7 @@ name: Контроль качества
 on: [push, pull_request]
 jobs:
   build:
-    if: github.repository == 'owner/project'
+    if: github.repository == 'arkuznetsov/yabr.os'
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
