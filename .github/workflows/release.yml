@@ -10,6 +10,7 @@ on:
 
 env:
   PACKAGE_MASK: yabr-*.ospx
+  ACTIONS_ALLOW_UNSECURE_COMMANDS: true
 
 jobs:
   build:
