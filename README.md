@@ -2,10 +2,10 @@
 
 [![GitHub release](https://img.shields.io/github/release/ArKuznetsov/yabr.os.svg?style=flat-square)](https://github.com/ArKuznetsov/yabr.os/releases)
 [![GitHub license](https://img.shields.io/github/license/ArKuznetsov/yabr.os.svg?style=flat-square)](https://github.com/ArKuznetsov/yabr.os/blob/develop/LICENSE)
-[![Build Status](https://travis-ci.org/arkuznetsov/yabr.os.svg?branch=develop)](https://travis-ci.org/arkuznetsov/yabr.os)
-[![Quality Gate](https://oskk-sonar.1solution.ru/api/badges/gate?key=yabr.os)](https://oskk-sonar.1solution.ru/dashboard/index/yabr.os)
-[![Coverage](https://oskk-sonar.1solution.ru/api/badges/measure?key=yabr.os&metric=coverage)](https://oskk-sonar.1solution.ru/dashboard/index/yabr.os)
-[![Tech debt](https://oskk-sonar.1solution.ru/api/badges/measure?key=yabr.os&metric=sqale_debt_ratio)](https://oskk-sonar.1solution.ru/dashboard/index/yabr.os)
+[![Build Status](https://img.shields.io/github/workflow/status/ArKuznetsov/yabr.os/%D0%9A%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C%20%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B0)](https://github.com/arkuznetsov/yabr.os/actions/)
+[![Quality Gate](https://open.checkbsl.org/api/project_badges/measure?project=yabr&metric=alert_status)](https://open.checkbsl.org/dashboard/index/yabr)
+[![Coverage](https://open.checkbsl.org/api/project_badges/measure?project=yabr&metric=coverage)](https://open.checkbsl.org/dashboard/index/yabr)
+[![Tech debt](https://open.checkbsl.org/api/project_badges/measure?project=yabr&metric=sqale_index)](https://open.checkbsl.org/dashboard/index/yabr)
 
 Приложение oscript для чтения скобочных файлов 1С, аналог [обработок 1С (yabr.1c)](https://github.com/ArKuznetsov/yabr.1c).
 
@@ -250,6 +250,25 @@
 - **ШаблонЗаголовкаИндекса** - (обязательный) Шаблон для установки значения заголовка индекса (_index) при выгрузке;
 - **ШаблонТипаИндекса** - (обязательный) Шаблон для установки значения типа индекса (_type) при выгрузке;
 - **ШаблонИдИндекса** -(обязательный) Шаблон для установки идентификатора индекса (_id) при выгрузке;
+- **РазмерПорцииОбработки** - Количество записей, которое будет добавлено в пакет для отправки в Elastic. Значение по умолчанию: 1;
+- **СохранятьОбработанныеДанные** - Флаг необходимости сохранения обработанных данных в результатах обработки. Значение по умолчанию: Ложь;
+- **СохранятьОтправленныеСтроки** - Флаг необходимости сохранения строк, отправленных в Elastic в результатах обработки. Значение по умолчанию: Ложь.
+
+### ВыводДанныхВClickhouse.os
+
+Обработчик вывода данных, любые входящие данные преобразует в INSERT SQL-запрос и отправляет в СУБД ClickHouse через REST API.
+
+#### Параметры
+
+- **Клик_Сервер** - (обязательный) Адрес сервера http-сервиса ClickHouse.");
+- **Клик_Порт** - Порт сервера http-сервиса ClickHouse. Значение по умолчанию: 9200;
+- **Клик_Путь** - Относительный путь к REST API ClickHouse;
+- **Клик_Пользователь** - Имя пользователя сервиса ClickHouse;
+- **Клик_Пароль** - Пароль пользователя сервиса ClickHouse;
+- **Клик_ИмяБазы** - Имя базы данных ClickHouse;
+- **Клик_ИмяТаблицы** - Имя таблицы в базе ClickHouse;
+- **Клик_СоответствиеПолей** - Соответствие полей входящих данных полям таблицы ClickHouse (с указанием типов;
+- **Клик_УпорядочитьПо** - Список полей сортировки данных в таблице ClickHouse;
 - **РазмерПорцииОбработки** - Количество записей, которое будет добавлено в пакет для отправки в Elastic. Значение по умолчанию: 1;
 - **СохранятьОбработанныеДанные** - Флаг необходимости сохранения обработанных данных в результатах обработки. Значение по умолчанию: Ложь;
 - **СохранятьОтправленныеСтроки** - Флаг необходимости сохранения строк, отправленных в Elastic в результатах обработки. Значение по умолчанию: Ложь.
