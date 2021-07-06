@@ -141,7 +141,9 @@
 											"ПолеИсточника" : "Сеанс"
 										}
 									},
-									"Клик_УпорядочитьПо": ["DateTime", "FilePosition"],
+									"Клик_ПервичныйКлюч": ["IBName", "FileName", "FilePosition"],
+									"Клик_Разделение": ["toYYYYMM(DateTime)"],
+									"Клик_УпорядочитьПо": ["IBName", "FileName", "FilePosition", "DateTime"],
 									"РазмерПорцииОбработки":5000
 								},
 								"Обработчики":[
