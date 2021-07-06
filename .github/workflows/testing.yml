@@ -6,6 +6,9 @@ name: Тестирование
 # Любой пуш и pr в проекте
 on: [push, pull_request]
 
+env:
+  ACTIONS_ALLOW_UNSECURE_COMMANDS: true
+
 jobs:
   build:
     runs-on: ${{ matrix.os }}
@@ -18,7 +21,7 @@ jobs:
     steps:
       # Загрузка проекта
       - name: Актуализация
-        uses: actions/checkout@v2
+        uses: actions/checkout@v2.3.4
 
       # Установка OneScript конкретной версии
       - name: Установка OneScript

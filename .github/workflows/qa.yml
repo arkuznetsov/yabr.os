@@ -5,6 +5,10 @@
 name: Контроль качества
 # Любой пуш и pr в проекте но с фильтром по основному проекту
 on: [push, pull_request]
+
+env:
+  ACTIONS_ALLOW_UNSECURE_COMMANDS: true
+
 jobs:
   build:
     if: github.repository == 'arkuznetsov/yabr.os'
@@ -18,7 +22,9 @@ jobs:
     steps:
       # Загрузка проекта
       - name: Актуализация
-        uses: actions/checkout@v2
+        uses: actions/checkout@v2.3.4
+        with:
+          fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
 
       # https://stackoverflow.com/questions/58033366/how-to-get-current-branch-within-github-actions
       - name: Извлечение имени текущей ветки
