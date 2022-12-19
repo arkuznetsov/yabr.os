@@ -1,11 +1,13 @@
-# Yet another brace reader (os): Чтение "скобкофайлов" 1С (yabr.os)
-
 [![GitHub release](https://img.shields.io/github/release/ArKuznetsov/yabr.os.svg?style=flat-square)](https://github.com/ArKuznetsov/yabr.os/releases)
 [![GitHub license](https://img.shields.io/github/license/ArKuznetsov/yabr.os.svg?style=flat-square)](https://github.com/ArKuznetsov/yabr.os/blob/develop/LICENSE)
 [![Build Status](https://img.shields.io/github/workflow/status/ArKuznetsov/yabr.os/%D0%9A%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C%20%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B0)](https://github.com/arkuznetsov/yabr.os/actions/)
 [![Quality Gate](https://open.checkbsl.org/api/project_badges/measure?project=yabr&metric=alert_status)](https://open.checkbsl.org/dashboard/index/yabr)
 [![Coverage](https://open.checkbsl.org/api/project_badges/measure?project=yabr&metric=coverage)](https://open.checkbsl.org/dashboard/index/yabr)
 [![Tech debt](https://open.checkbsl.org/api/project_badges/measure?project=yabr&metric=sqale_index)](https://open.checkbsl.org/dashboard/index/yabr)
+
+<a href="https://checkbsl.org"><img alt="Checked by Silver Bulleters SonarQube BSL plugin" src="https://web-files.do.bit-erp.ru/sonar/b_t.png" align="right" style="width:400px"/></a>
+
+# Yet another brace reader (os): Чтение "скобкофайлов" 1С (yabr.os)
 
 Приложение oscript для чтения скобочных файлов 1С, аналог [обработок 1С (yabr.1c)](https://github.com/ArKuznetsov/yabr.1c).
 
